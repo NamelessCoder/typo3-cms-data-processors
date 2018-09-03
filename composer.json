@@ -1,0 +1,16 @@
+{
+    "name": "namelesscoder/typo3-cms-data-processors",
+    "type": "typo3-cms-extension",
+    "require": {
+        "php": "^7",
+        "typo3/cms-frontend": "^8.7 || ^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "NamelessCoder\\DataProcessors\\": "Classes/"
+        }
+    },
+    "replace": {
+        "data_processors": "self.version"
+    }
+}
